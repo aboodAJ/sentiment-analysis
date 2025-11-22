@@ -145,18 +145,6 @@ def main():
 
     st.success("✅ Models loaded successfully!")
 
-    # Example buttons
-    st.markdown("**Try an example:**")
-    col1, col2 = st.columns(2)
-
-    with col1:
-        if st.button("👍 Positive Example", use_container_width=True):
-            st.session_state.review_text = "This movie was absolutely fantastic! The cinematography was breathtaking and the performances were outstanding. I highly recommend it to everyone."
-
-    with col2:
-        if st.button("👎 Negative Example", use_container_width=True):
-            st.session_state.review_text = "What a waste of time. The plot was confusing, the acting was terrible, and I couldn't wait for it to end. Definitely not worth watching."
-
     # Input section
     st.markdown("### Enter a Movie Review")
     review_input = st.text_area(
@@ -213,6 +201,7 @@ def main():
     st.markdown("""
         <div style="text-align: center; color: #666; padding: 20px;">
             <p>Powered by LSTM + Word2Vec | Built with Streamlit</p>
+            <p>By Abdullah ALJABRI </p>
         </div>
     """, unsafe_allow_html=True)
 
