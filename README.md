@@ -68,7 +68,7 @@ Même pipeline que ci-dessus, mais avec **SpaCy** pour la lemmatisation afin de 
 ### 1. Cloner le projet
 
 ```bash
-git clone https://github.com/VOTRE_USERNAME/sentiment-analysis-imdb.git
+git clone https://github.com/aboodAJ/sentiment-analysis-imdb.git
 cd sentiment-analysis-imdb
 ```
 
